@@ -32,6 +32,7 @@ const Index = () => {
           <VStack spacing={4}>
             <Input placeholder="Your Name" isRequired />
             <Input placeholder="Email Address" isRequired type="email" />
+            <Input type="file" p={1} />
             <Button leftIcon={<FaPlus />} colorScheme="blue" size="lg" type="submit">
               Get Started
             </Button>
