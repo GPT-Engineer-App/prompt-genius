@@ -68,6 +68,16 @@ const Index = () => {
         </HStack>
       </VStack>
 
+      <VStack spacing={16} as="section" py={20} textAlign="center">
+        <Heading as="h2" size="xl">
+          Our Work
+        </Heading>
+        <Text fontSize="lg" color="gray.600">
+          Take a look at some of the projects we've crafted for our amazing clients.
+        </Text>
+        <Image src="https://via.placeholder.com/600x300?text=Example+Project" alt="Example of work" borderRadius="md" />
+      </VStack>
+
       <VStack as="footer" spacing={4} pt={10} pb={10} borderTop="1px" borderColor="gray.200">
         <Text>&copy; {new Date().getFullYear()} Prompt Builder. All rights reserved.</Text>
       </VStack>
